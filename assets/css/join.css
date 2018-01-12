@@ -1,0 +1,42 @@
+#contact-form{
+    max-width: 860px;
+    width:80%;
+    display:inline-block;
+    vertical-align:top;
+    left: 50%;
+    transform: translateX(-50%);
+    position:relative;
+    margin-top: 30px;
+}
+
+
+input[type=text], input[type=email] {
+    width:95%;
+    background-color: #E9F4F3;
+    border: none;
+    height:30px;
+    padding-left: 10px;
+}
+
+
+
+textarea {
+    width:95%;
+    background-color: #E9F4F3;
+    border: none;
+    height:100px;
+    padding-left: 10px;
+    padding-top:10px;
+    resize:none;
+}
+
+ input[type=submit] {
+     background-color: #346270;
+     border:none;
+     color:white;
+     width:60px;
+} 
+
+a {
+    color:blue;
+}

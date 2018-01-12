@@ -1,0 +1,63 @@
+body {
+    background-image: url("../img/home-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+}
+
+.opaque-colors {
+    height: 12px;
+}
+
+.transparent-colors {
+    height: 100%;
+    position:absolute;
+    top:0;
+    z-index:-50;
+}
+
+.color {
+    position:relative;
+    /* height: 12px; */
+    height:inherit;
+    width: 16.66vw;
+    display: inline-block;
+    vertical-align:top;
+}
+
+#title-container {
+    display:table;
+    position:relative;
+    width:80%;
+    left:50%;
+    transform: translate(-50%);
+    min-height: 70vh;
+    max-width:860px;
+}
+
+#title {
+    display:table-cell;
+    position:relative;
+    vertical-align: middle;
+}
+
+#o4b-letters img {
+    position:relative;
+    object-fit:contain;
+    max-width:100%;
+}
+
+#tagline {
+    margin-top: -3%;
+    color:white;
+    text-align:center;
+    font-size:26px;
+}
+
+.footer {
+    background-color: white;
+    font-size: 12px;
+}
+
+
